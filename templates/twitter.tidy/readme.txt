@@ -1,0 +1,1 @@
+This layout is like the twitter template, but with a smaller font and the name information background color is the same as the user's sidebar fill color. Just like the twitter template, the thick border around the quote has the same color as the user's background color.

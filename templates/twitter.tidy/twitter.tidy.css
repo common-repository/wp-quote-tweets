@@ -1,0 +1,120 @@
+.quotedtweet {
+	padding:10px;
+	text-align:left;
+	color:#666
+}
+.quotedtweet a, .quotedtweet a:visited {
+	color:#46aed9;
+	text-decoration:none;
+}
+.quotedtweet a:hover {
+	color:#000;
+	text-decoration:none;
+}
+.quotedtweet div {
+	margin:0;padding:0;
+}
+div.tw_content-bubble-arrow {
+	height:20px;
+	width:100%;
+	background: transparent url('arrow.gif') 15px 0 no-repeat ;
+	clear:both;
+}
+div.tw_content {
+	background-color:#fff;
+	word-wrap:break-word;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	width:100%;
+}
+div.tw_content.tw_wide {
+	width:100%;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+div.tw_wrapper {
+	padding:0;
+	margin:0;
+	width:100%;
+	margin-top:-10px;
+}
+.tw_listable {
+	cursor:pointer;
+	position:relative;
+}
+.tw_listable:hover .tw_list-controls {
+	display:block;
+}
+.tw_status-body {
+	display:block;
+	font-size:1em;
+	padding:15px;
+}
+.tw_entry-content {
+	display:block;
+	background-color:#fff;
+	font:normal 1em georgia;
+	font-weight:400;
+	line-height:1.25em;
+	padding:0;
+	overflow:hidden;
+}
+div.tw_user-info {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-left-radius:0px;
+	margin:0;
+	padding: 10px 10px 0 10px;
+	line-height:1em;
+	width:auto;
+}
+.tw_clear {
+	clear:both
+}
+div.tw_thumb {
+	float:left;
+	margin:0;
+	padding:0;
+}
+div.tw_thumb img {
+	max-width:48px;
+	width:48px;
+	height:48px;
+	vertical-align:middle;
+	margin:0;padding:0;
+	float:left;
+	border:none;
+	margin-left:2px;
+}
+.tw_screen-name {
+	font-size:1.3em;
+	position:relative;
+	top:5px;
+	left:10px;
+}
+.tw_screen-name a:visited , .tw_screen-name a {font-weight:bold;color:#444;}
+.tw_screen-name a:hover {color:#444;}
+
+.tw_full-name {
+	font-size:.9em;
+	margin:0;
+	position:relative;
+	top:16px;
+	left:10px;
+}
+.tw_meta {
+	display:block;
+	margin-top:.5em;
+	line-height:1.25em;
+	font:italic 1em georgia;
+	color:#999;
+}
+.tw_status-body .tw_meta {
+	font:normal .95em 'Lucida Grande';
+}
+

@@ -1,0 +1,107 @@
+.tweetquote .tweetclear {
+	margin:0;
+	clear:both
+}
+.tweetquote {
+	color:#fff;
+	background:#606470 url('tweetbg.png');
+	padding:10px;
+	font:bold 8pt 'Lucida Grande',sans-serif;
+	width:498px;
+	border:1px solid #33363d;
+	border-left:1px solid #9298aa;
+	border-top:1px solid #9298aa;
+	text-align:left
+}
+.tweetquote .tweetitem {
+	margin:0;
+	padding:0;
+}
+.tweetquote .tweetitem  a {
+	border:none;
+	color:#ced7f0;
+	text-decoration:none
+}
+.tweetquote .tweetitem .quoting_pic {
+	float:left;
+	height:50px;
+}
+.tweetquote .tweetitem .quoting_pic img {
+	background:#eee;
+	float:left;
+	margin:0;
+	border:1px solid #33363d;
+	border-bottom:1px solid #969fb4;
+	border-right:1px solid #969fb4;
+	padding:1px;
+	width:48px;
+	height:48px;
+	position:relative;
+	top:-1px;
+}
+.tweetquote .leftdoublequote, .tweetquote .rightdoublequote {
+	float:left;
+	position:relative;
+	font:bold 50px georgia;
+	line-height:40px;
+	z-index:2;
+	color:#555963;
+	overflow:hidden;
+}
+.tweetquote .rightdoublequote {
+	left:420px;
+	margin-top: 4px;height:17px;
+}
+.tweetquote .leftdoublequote {
+	left:10px;
+	margin-top:-4px;
+}
+.tweetquote .tweetitem .quoting_msg {
+	margin-left:65px;
+	width:370px;
+	display:block;
+	z-index:300;
+	position:relative;min-height:37px;
+}
+.tweetquote .tweetitem .tweetinfo {
+	display:block;
+	font:italic 0.8em georgia;
+	left:10px;
+	color:#ccc;
+	margin:0;
+	margin-left:65px;
+	width:380px;
+	display:block;
+}
+.tweetquote .tweetitem .tweetinfo a {
+	color:#ced7f0;
+}
+.tweetquote .controls {
+	display: none;
+	float:right;
+	font:bold 10px 'Lucida Grande',sans-serif;
+	line-height:1.4em;
+	vertical-align:bottom;
+}
+.tweetquote:hover .controls {
+	margin:0;
+	padding:0;
+	display:block;
+	color:#d2dadf;
+	position:relative;
+	top:1px;
+	z-index:3
+}
+.tweetquote:hover .controls a {
+	color:#a8afc4;
+	padding-left:5px;
+	width:50px;
+	float:right;
+	clear:both;
+	border:1px solid #6d727f;
+	margin-bottom:2px;
+	z-index:3
+}
+.tweetquote:hover .controls a:hover {
+	color:#fff;
+}

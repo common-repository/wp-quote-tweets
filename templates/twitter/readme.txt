@@ -1,0 +1,1 @@
+The twitter theme is roughly designed around how Twitter.com shows individual tweets. Its thick border color is derived from the user being quoted. It is the user's own chosen background color.
